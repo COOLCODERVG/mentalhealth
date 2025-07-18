@@ -32,19 +32,28 @@ npm run dev     # or yarn dev
 
 Visit `http://localhost:3000` in your browser.
 
+> ⚠️ **Note:** This project requires an `.env` file for API keys and environment variables. Example:
+
+```bash
+VITE_API_KEY=your_api_key_here
+```
+
+Place this file in the root directory before running the app.
+
 ## 📁 Project Structure
 
 ```
 mentalhealth/
-├─ client/            # React frontend
-│   ├─ components/    # Reusable UI components
-│   ├─ pages/         # Route-based pages
-│   └─ utils/         # Helper functions & API logic
-└─ server/            # Node.js backend (Express)
-    ├─ controllers/   # API controllers
-    ├─ models/        # MongoDB models
-    ├─ routes/        # API endpoints
-    └─ config/        # DB & server config
+├─ node_modules/       # Installed packages
+├─ public/             # Static assets
+├─ src/                # Source code (components, pages, logic)
+├─ .gitignore          # Git ignored files
+├─ eslint.config.js    # ESLint configuration
+├─ index.html          # Entry HTML
+├─ package-lock.json   # Dependency lock file
+├─ package.json        # Project metadata and scripts
+├─ README.md           # Project documentation
+├─ vite.config.js      # Vite bundler configuration
 ```
 
 ## ⚙️ Tech Stack
@@ -59,16 +68,6 @@ mentalhealth/
 * **Journal** – Create and manage personal entries
 * **Insights** – Visualize your emotional trends over time
 * **Authentication** – Register, log in, and maintain sessions securely
-
-## 📸 Screenshots
-
-> *Insert screenshots in this section using Markdown:*
-
-```
-![Mood Tracker](./screenshots/mood-tracker.png)
-![Journal Page](./screenshots/journal.png)
-![Insights](./screenshots/insights.png)
-```
 
 ## ✅ Pre‐Submission Checklist
 
