@@ -1,6 +1,25 @@
 # 🌱 MentalHealth Tracker
 
+---
+⚠️ This is a collaborative project. Here are my personal contributions to the MentalHealth Tracker app:
+
+-🔧 Frontend Features & Styling
+I contributed to building and styling several frontend components, including the mood tracking UI and parts of the journaling system using React and Tailwind CSS.
+
+-📊 Data Visualization
+I helped implement and customize the Insights page using Chart.js to show mood trends over time.
+
+-🛠️ Bug Fixes & Polish
+I helped debug UI inconsistencies across mobile and desktop views, and made visual polish tweaks for a cleaner experience.
+
+-🧪 Testing & Feedback
+I assisted with testing key features like mood submission, journal saving, and login flow, and provided user feedback to improve the UX.
+
+-📄 Project Documentation
+I contributed to updating the README to reflect the latest setup instructions and project structure.
 A full-stack mental health tracking app where users can log moods, write journals, and visualize emotional trends over time.
+
+---
 
 ## 🧠 Features
 
